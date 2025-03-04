@@ -15,6 +15,41 @@ main{
     background-color: #141922;
     overflow-y: auto;
 }
+.sfoglia-tutto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sfoglia-tutto ul{
+    display: flex;
+    list-style-type: none;
+}
+.sfoglia-tutto ul li{
+    color: #696363;
+    padding: 17px;
+    font-weight: 800;
+}
+.hr-evidenza{
+    width: calc(100%/3);
+    border-color: greenyellow;
+    margin: 3px calc(100%/3);
+}
+.recently-played{
+    width: 100%;
+    height: 150px;
+    background-color: beige;
+}
+.creato-da-jd{
+    width: calc(100%/3);
+    height: 150px;
+    background-color: blueviolet;
+}
+.artisti-popolari{
+    width: calc(100%/3);
+    height: 150px;
+    background-color: cadetblue;
+}
 /*HEADER*/
 header{
     position: sticky;
@@ -25,8 +60,8 @@ header{
     justify-content: flex-end;
 }
 .btn{
-    height: 35%;
-    padding: 8px 28px;
+    height: 39%;
+    padding: 10px 28px;
     border: 1px solid white;
     align-self: center;
     border-radius: 18px;
@@ -107,7 +142,7 @@ footer{
 .txt-white{
     color: white;
 }
-/*font-size*/
+/*font*/
 .font-size-17{
     font-size: 17px;
 }
@@ -129,4 +164,8 @@ footer{
 }
 .margin-rght-5{
     margin-right: 5px;
+}
+/*FLEXBOX*/
+.ds-flex{
+    display: flex;
 }
