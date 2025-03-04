@@ -22,11 +22,66 @@ header{
     background-color: rgba(0, 0, 0, 0.5);
     top: 0;
 }
+.side-bar .logo{
+    width: 70%;
+    margin: 23px 25px;
+}
 /*SIDE-BAR*/
 .side-bar{
     height: 100%;
     width: 280px;
     background-color: black;
+}
+.top-side-bar{
+    min-height: calc(100% - 77px);
+}
+.menu-buttons hr{
+    height: 33px;
+    border-color: greenyellow;
+}
+.menu-buttons{
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+.menu-buttons img{
+    margin-right: 5px;
+}
+.side-bar ul li{
+    list-style-type: none;
+    font-weight: 800;
+}
+.side-bar ul li img{
+    width: 13%;
+}
+.add-playlist{
+    padding: 10px;
+    background-color: lightgrey;
+    color: black;
+}
+.list-playlist li{
+    padding: 6px 0;
+}
+.profile-download{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.width-icon-dwl{
+    width: 10%;
+}
+.profile-download hr{
+    width: 85%;
+    text-align: center;
+    border-color: darkgrey;
+    margin: 7px 0;
+}
+.user-icon{
+    background-color: grey;
+    color:white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
 }
 /*FOOTER*/
 footer{
@@ -35,3 +90,33 @@ footer{
 }
 /*COMMONS*/
 /*UTILITIES*/
+/*color*/
+.txt-grey{
+    color: gray;
+}
+.txt-white{
+    color: white;
+}
+/*font-size*/
+.font-size-17{
+    font-size: 17px;
+}
+.font-wheight-800{
+    font-weight: 800;
+}
+.margin-top-20{
+    margin-top: 20px;
+}
+/*margin*/
+.margin-lft-25{
+    margin-left: 25px;
+}
+.margin-lft-23{
+    margin-left: 23px;
+}
+.margin-rght-10{
+    margin-right: 10px;
+}
+.margin-rght-5{
+    margin-right: 5px;
+}
