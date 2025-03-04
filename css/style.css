@@ -14,7 +14,9 @@ main{
     width:calc(100% - 110px);
     background-color: #141922;
     overflow-y: auto;
-    padding: 20px;
+}
+.container{
+    padding: 0 20px;
 }
 .sfoglia-tutto{
     width: 100%;
@@ -69,7 +71,7 @@ main{
 }
 .creato-da-jd{
     width: 100%;
-    height: 200px;
+    height: 250px;
     background-color: blueviolet;
     display: flex;
     flex-wrap: wrap;
@@ -82,9 +84,12 @@ main{
     border: 1px solid black;
 }
 .artisti-popolari{
-    width: calc(100%/3);
-    height: 200px;
+    width: 100%;
+    height: 250px;
     background-color: cadetblue;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 35px;
 }
 /*HEADER*/
 header{
