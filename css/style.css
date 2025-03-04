@@ -14,6 +14,7 @@ main{
     width:calc(100% - 110px);
     background-color: #141922;
     overflow-y: auto;
+    padding: 20px;
 }
 .sfoglia-tutto{
     width: 100%;
@@ -40,7 +41,7 @@ main{
     height: 320px;
     background-color: beige;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 .top-card{
@@ -67,13 +68,22 @@ main{
     border: 1px solid black;
 }
 .creato-da-jd{
-    width: calc(100%/3);
-    height: 150px;
+    width: 100%;
+    height: 200px;
     background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 35px;
+}
+.card-50{
+    width: calc(100% / 6 - 30px);
+    height: 80%;
+    background-color: blue;
+    border: 1px solid black;
 }
 .artisti-popolari{
     width: calc(100%/3);
-    height: 150px;
+    height: 200px;
     background-color: cadetblue;
 }
 /*HEADER*/
