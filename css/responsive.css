@@ -82,3 +82,76 @@
     }
 
 }
+@media screen and (max-width: 476px){
+   .side-bar .logo{
+    display: none;
+   } 
+   .menu-buttons span , .menu-buttons hr{
+    display: none;
+   }
+   .playlists{
+    display: none;
+   }
+   .profile-download span , .profile-download hr{
+    display: none;
+   }
+   .profile-download{
+        display: block;
+   }
+   .margin-rght-10{
+    margin-right: 0;
+   }
+
+   .width-icon-dwl{
+    width: 40px;
+   }
+   .pad-user{
+    padding-left: 8px;
+   }
+   .side-bar{
+    width: 40px;
+   }
+   .content{
+    width: calc(100% - 40px);
+   }
+   .margin-lft-25{
+    margin:0;
+   }
+   .menu-buttons img{
+    margin-left: 0px;
+   }
+   .margin-lft-23{
+    margin-left: 0px;
+   }
+   .side-bar ul li img{
+    width: 70%;
+    margin-left: 5px;
+   }
+   .logo-none{
+    width: 80%;
+    margin-left: 5px;
+    margin-top: 10px;
+   }
+   .tlt-listen-to h4{
+    font-size: 13px;
+   }
+   .tlt-listen-to{
+    width: 35%;
+   }
+   .minute {
+    width: 87%;
+   }
+   .commands-play .play-icons {
+    padding: 0px 8px;
+    }
+    .commands-play {
+        width: 85%;
+    }
+    .play {
+        width: 40%;
+    }
+    .time {
+        padding-right: 30px;
+    }
+
+}
