@@ -196,56 +196,129 @@ footer{
     height: 110px;
     background-color: #282828;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 .brano{
     width: 250px;
     display: flex;
     align-items: center;
-    background-color: aqua;
-    border: 1px solid black;
 }
 .listen-to{
     width: 25%;
-    
-    background-color: peachpuff;
-    border: 1px solid black;
+    padding-left: 5px;
 }
 .listen-to img{
     width: 100%;
 }
 .tlt-listen-to{
     width: 45%;
-    padding-left: 5px;
-    background-color: coral;
-    border: 1px solid black;
+    padding-left: 10px;
 }
-.tlt-listen-to h4 , .listen-to-icons{
+.tlt-listen-to h4 {
     color: white;
 }
-.tlt-listen-to p{
+.tlt-listen-to p , .listen-to-icons{
     color: grey;
 }
 .listen-to-icons{
     width: 30%;
     text-align: center;
-    background-color: darkred;
-    border: 1px solid black;
 }
 .listen-to-icons ul{
     list-style-type: none;
+    display: flex;
 }
+.listen-to-icons ul li{
+    padding: 10px;
+}
+
 .play{
     width: calc(100% - 280px*2 - 50px);
-    height: 90%;
-    background-color: chartreuse;
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.border-play{
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 3px 4px;
+}
+.commands-play{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.commands-play .play-icons{
+    padding: 0 15px;
+}
+.commands-play .play-icons i{
+    color: white;
+    
+}
+.minute{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time{
+    width: 15%;
+    text-align: right;
+    padding-right: 10px;
+}
+.time-end{
+    width: 15%;
+    padding-left: 10px;
+
+}
+.barra-time{
+    width: 50%;
+
+}
+.bg-barra{
+    border: 2px solid rgb(71, 70, 70);
+    border-radius: 30%;
+    width: 100%;
+    background-color: rgb(71, 70, 70);
+}
+.sm-barra{
+    border: 2px solid white;
+    border-radius: 30%;
+    width: 20%;
 }
 .volume{
     width: 250px;
-    height: 90%;
-    background-color: chocolate;
-    border: 1px solid brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.list-icon{
+    width: 15%;
+}
+.connect-dispositivi{
+    width: 15%;  
+}
+.icon-volume{
+    width: 15%;
+}
+.barra-volume{
+    width: 40%;
+}
+.bg-barra-vol{
+    border: 2px solid rgb(71, 70, 70);
+    border-radius: 30%;
+    width: 90%;
+    background-color: rgb(71, 70, 70);
+}
+.sm-barra-vol{
+    border: 2px solid white;
+    border-radius: 30%;
+    width: 20%;
 }
 /*COMMONS*/
 /*UTILITIES*/
