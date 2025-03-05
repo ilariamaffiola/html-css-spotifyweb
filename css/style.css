@@ -269,15 +269,16 @@ footer{
     width: 15%;
     text-align: right;
     padding-right: 10px;
+    color: white;
 }
 .time-end{
     width: 15%;
     padding-left: 10px;
+    color: white;
 
 }
 .barra-time{
     width: 50%;
-
 }
 .bg-barra{
     border: 2px solid rgb(71, 70, 70);
