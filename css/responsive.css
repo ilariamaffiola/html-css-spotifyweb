@@ -33,4 +33,52 @@
     .top-card{
         padding-top: 25px;
     }
+    .barra-time{
+        width: 100%;
+    }
+    .volume{
+        width: 170px;
+    }
+    .brano{
+        width: 229px;
+    }
+    .play{
+        width: calc(100% - 230px* 2);
+    }
+}
+@media screen and (max-width:576px){
+    .sfoglia-tutto ul li{
+        padding: 10px;
+    }
+    .card , .card-50{
+        width: calc(100%/2 - 6px);
+    }
+    .cards{
+        gap: 0 2vw;
+    }
+    .cards-50{
+        gap: 0 10px;
+    }
+    .brano{
+        width: 220px;
+    }
+    .listen-to-icons ul{
+        display: block;
+    }
+    .listen-to-icons ul li{
+        padding: 2px;
+    }
+    .play{
+        width: calc(100% - 300px);
+    }
+    .tlt-listen-to p{
+        font-size: 12px;
+    }
+    .barra-time{
+        width: 60%;
+    }
+    .time p , .time-end p{
+        font-size: 12px;
+    }
+
 }

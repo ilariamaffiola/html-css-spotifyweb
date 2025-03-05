@@ -79,6 +79,11 @@ main{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.cards-50{
+    display: flex;
+    gap: 0 35px;
+    width: 100%;
+}
 .card{
     width: calc(100%/6 - 30px);
 }
@@ -95,7 +100,6 @@ main{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 0 35px;
 }
 .creato-da-jd img{
     width: 100%;
@@ -108,7 +112,6 @@ main{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 0 35px;
     margin-bottom: 40px;
 }
 .artisti-popolari img{
