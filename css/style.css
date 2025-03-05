@@ -195,6 +195,57 @@ header{
 footer{
     height: 110px;
     background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+}
+.brano{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    border: 1px solid black;
+}
+.listen-to{
+    width: 25%;
+    
+    background-color: peachpuff;
+    border: 1px solid black;
+}
+.listen-to img{
+    width: 100%;
+}
+.tlt-listen-to{
+    width: 45%;
+    padding-left: 5px;
+    background-color: coral;
+    border: 1px solid black;
+}
+.tlt-listen-to h4 , .listen-to-icons{
+    color: white;
+}
+.tlt-listen-to p{
+    color: grey;
+}
+.listen-to-icons{
+    width: 30%;
+    text-align: center;
+    background-color: darkred;
+    border: 1px solid black;
+}
+.listen-to-icons ul{
+    list-style-type: none;
+}
+.play{
+    width: calc(100% - 280px*2 - 50px);
+    height: 90%;
+    background-color: chartreuse;
+    border: 1px solid black;
+}
+.volume{
+    width: 250px;
+    height: 90%;
+    background-color: chocolate;
+    border: 1px solid brown;
 }
 /*COMMONS*/
 /*UTILITIES*/
