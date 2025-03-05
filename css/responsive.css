@@ -1,0 +1,14 @@
+@media screen and (max-width: 1200px){
+    .card{
+        width: calc(100%/4 - 30px);
+    }
+    .card-50{
+        width: calc(100%/4 - 30px);
+    }
+}
+@media screen and (max-width: 998px){
+    .sfoglia-tutto ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
