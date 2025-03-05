@@ -144,6 +144,9 @@ header{
     width: 70%;
     margin: 23px 25px;
 }
+.side-bar .logo-none{
+    display: none;
+}
 .top-side-bar{
     min-height: calc(100% - 77px);
 }
