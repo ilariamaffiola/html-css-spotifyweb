@@ -130,15 +130,14 @@ header{
     border-radius: 18px;
 }
 
+/*SIDE-BAR*/
+.side-bar{
+    width: 280px;
+    background-color: black;
+}
 .side-bar .logo{
     width: 70%;
     margin: 23px 25px;
-}
-/*SIDE-BAR*/
-.side-bar{
-    height: 100%;
-    width: 280px;
-    background-color: black;
 }
 .top-side-bar{
     min-height: calc(100% - 77px);
@@ -198,6 +197,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
 }
 .brano{
     width: 250px;
