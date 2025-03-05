@@ -5,10 +5,32 @@
     .card-50{
         width: calc(100%/4 - 30px);
     }
+    .cards{
+        justify-content: flex-start;
+        gap: 0 3vw;
+    }
 }
 @media screen and (max-width: 998px){
     .sfoglia-tutto ul{
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+}
+@media screen and (max-width:768px){
+    .cards{
+        gap: 0 1vw;
+    }
+    .card , .card-50{
+        width: calc(100%/4 - 6px);
+        padding-bottom: 0;
+    }
+    .card-tlt-song h4{
+        line-height: 16px;
+        font-weight: 800;
+        font-size: 15px;
+    }
+    .top-card{
+        padding-top: 25px;
     }
 }

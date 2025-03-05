@@ -76,7 +76,7 @@ main{
 }
 .cards{
     display: flex;
-    gap: 0 36px;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 .card{
@@ -90,7 +90,6 @@ main{
 }
 .card-tlt-song{
     width: 100%;
-    height: 30%;
 }
 .creato-da-jd{
     width: 100%;
